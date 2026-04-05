@@ -269,7 +269,7 @@ func (m model) View() string {
 
 func main() {
 	server, _ := wish.NewServer(
-		wish.WithAddress("0.0.0.0:22"),
+		wish.WithAddress("0.0.0.0:2222"),
 		wish.WithHostKeyPath(".ssh/host_ed25519"),
 		wish.WithMiddleware(wishtea.Middleware(teaHandler), logging.Middleware()),
 	)
