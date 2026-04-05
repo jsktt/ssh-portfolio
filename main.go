@@ -233,9 +233,9 @@ func (m model) View() string {
 
 		case "🐙 Projects":
 			if m.language == "ko" {
-				content = "• SSH 포트폴리오: 현재 보고 계신 이 앱입니다.\n• 터미널 가이드: CLI 인터페이스용 라이브러리.\n• 데이터 시각화: Go를 이용한 실시간 차트 도구."
+				content = "• SSH 포트폴리오: 현재 보고 계신 이 앱입니다.\n• 포트폴리오: React + Typescript 로 만들었어요. junssung-kim.com\n• 핀트: Java17, Spring Boot 기반 이미지 공유 프랫폼\n•프롬프트 분류화: RoBERTa 모델 학습 통해 유저 프롬프트 정확하게 분류"
 			} else {
-				content = "• SSH Portfolio: The app you are currently viewing.\n• Terminal Flow: A library for CLI interfaces.\n• Data Viz: Real-time charting tools built with Go."
+				content = "• SSH Portfolio: The app you are currently viewing.\n• Portfolio: Made with React + Typescsript. junsung-kim.com.\n• Pint: Image sharing platform using Java17 and Spring Boot\n• Performant Prompt Classification: fine-tuned RoBERTa model to classify user prompts."
 			}
 
 		case "📧 Contact":
@@ -247,9 +247,9 @@ func (m model) View() string {
 
 		case "📧 Blog":
 			if m.language == "ko" {
-				content = "최신 기술 아티클과 프로젝트 회고록이 업로드됩니다."
+				content = "디테일은 재 사이트를 방문해주세요! junsung-kim.com"
 			} else {
-				content = "Technical articles and project retrospectives are uploaded here."
+				content = "Check my site for more details! junsung-kim.com"
 			}
 
 		default:
